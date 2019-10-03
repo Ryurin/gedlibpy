@@ -154,6 +154,6 @@ def LSAPETest(matrixCost) :
 
 def LSAPTest(matrixCost) :
     result = gedlibpy.hungarian_LSAP(matrixCost)
-    print("Rho = ", result[0], " u = ", result[1], " v = ", result[2], " Varrho = ", result[3])
+    print("Rho = ", result[0], " Varrho = ", result[1], " u = ", result[2], " v = ", result[3])
 
 #LSAPETest([[2,3,4], [5,1,9], [7,10,3]])

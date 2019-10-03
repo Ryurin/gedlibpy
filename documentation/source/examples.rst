@@ -159,7 +159,7 @@ LSAP
 .. code-block:: python
 
   result = gedlibpy.hungarian_LSAP(matrixCost)
-  print("Rho = ", result[0], " u = ", result[1], " v = ", result[2], " Varrho = ", result[3])
+  print("Rho = ", result[0], " Varrho = ", result[1], " u = ", result[2], " v = ", result[3])
 
 
 
